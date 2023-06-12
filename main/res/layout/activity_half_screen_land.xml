@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    date: 2023-06-08
+    file: activity_half_screen_land.xml
+    author: Jaime Rump
+    desc: Handles the layout for the HalfScreenActivity landscape version
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:background="#D5366137"
+    android:orientation="horizontal">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.simplecalculator.ListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="clip_vertical"
+        android:layout="@layout/fragment_list"
+        android:layout_weight="1" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.simplecalculator.BlankFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

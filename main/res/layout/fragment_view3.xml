@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    date: 2023-06-08
+    file: fragment_view3.xml
+    author: Jaime Rump
+    desc: Handles the layout for the View3Fragment
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View3Fragment">
+
+    <TextView
+        android:id="@+id/fragment3_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragTitle3"
+        android:textAlignment="center"
+        android:textSize="12pt"/>
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="8pt"/>
+
+    <Button
+        android:id="@+id/button_update_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/darkgreen"
+        android:layout_margin="10dp"
+        android:textSize="8pt"
+        android:text="@string/update"/>
+</LinearLayout>

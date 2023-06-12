@@ -1,0 +1,50 @@
+<!--
+    date: 2023-06-08
+    file: strings.xml
+    author: Jaime Rump
+    desc: Handles the string resources for the app
+-->
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="display">Enter in a value</string>
+    <string name="clear">AC</string>
+    <string name="plusMinus">±</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="backspace">⌫</string>
+    <string name="decimal">dec</string>
+    <string name="hex">hex</string>
+    <string name="octal">oct</string>
+    <string name="binary">bin</string>
+    <string name="bu9">9</string>
+    <string name="bu8">8</string>
+    <string name="bu7">7</string>
+    <string name="bu6">6</string>
+    <string name="bu5">5</string>
+    <string name="bu4">4</string>
+    <string name="bu3">3</string>
+    <string name="bu2">2</string>
+    <string name="bu1">1</string>
+    <string name="bu0">0</string>
+    <string name="point">.</string>
+    <string name="equals">=</string>
+    <string name="welcome"> Welcome, Jaime! </string>
+    <string name="date"> date goes here </string>
+    <string name="fragTitle1">Color Options: </string>
+    <string name="fragTitle2">Set Decimal Place: </string>
+    <string name="fragTitle3">Username Settings: </string>
+    <string name="button_colour"> Button</string>
+    <string name="background_colour"> Background</string>
+    <string name="update"> Update</string>
+    <string name="decimal_custom"> Enter custom decimal place # </string>
+    <string name="or"> Or </string>
+    <string name="restore"> Restore </string>
+
+    <string-array name="string_array_settings">
+        <item> Color Options </item>
+        <item> Set Decimal </item>
+        <item> Update name</item>
+    </string-array>
+</resources>

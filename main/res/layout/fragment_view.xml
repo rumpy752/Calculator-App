@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    date: 2023-06-08
+    file: fragment_view.xml
+    author: Jaime Rump
+    desc: Handles the layout for the ViewFragment
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/frag_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:text= "@string/fragTitle1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:layout_margin="10dp"
+        android:background="@color/darkgreen"
+        android:text="@string/button_colour" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:layout_margin="10dp"
+        android:background="@color/darkgreen"
+        android:text="@string/background_colour" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/redSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <SeekBar
+        android:id="@+id/greenSeekBar"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:id="@+id/blueSeekBar"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/valueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:padding="8dp" />
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="70dp" />
+
+    <Button
+        android:id="@+id/buttonRestore"
+        android:layout_width="wrap_content"
+        android:text="@string/restore"
+        android:textSize="7pt"
+        android:layout_margin="5dp"
+        android:background="@color/darkgreen"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
